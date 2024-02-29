@@ -4,7 +4,7 @@ let experienciaDoHeroi = 5000;
 
 // Estrutura de decisão para determinar o nível com base na experiência
 let nivelDoHeroi;
-if (experienciaDoHeroi < 1000) {
+if (experienciaDoHeroi <= 1000) {
     nivelDoHeroi = "Ferro";
 } else if (experienciaDoHeroi <= 2000) {
     nivelDoHeroi = "Bronze";
